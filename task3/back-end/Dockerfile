@@ -10,6 +10,7 @@ RUN apt-get install -y python3
 RUN apt-get install -y python3 python3-pip
 RUN pip3 install flasgger
 RUN pip3 install flask
+RUN pip3 install flask_cors
 RUN apt-get install -y python3-lxml
 RUN pip3 install flask_cors
 EXPOSE 5252
