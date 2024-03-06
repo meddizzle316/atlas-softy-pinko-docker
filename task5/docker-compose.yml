@@ -24,9 +24,9 @@ services:
       dockerfile: Dockerfile
     ports:
       - "80:80"
-    # depends_on:
-    #   - front-end
-    #   - back-end
+    depends_on:
+      - front-end
+      - back-end
 # build, context, dockerfile
 
 # image
